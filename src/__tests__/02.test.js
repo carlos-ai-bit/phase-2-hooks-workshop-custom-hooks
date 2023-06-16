@@ -19,7 +19,6 @@ describe("Exercise 02", () => {
       usePokemon("charmander")
     );
 
-    await waitForNextUpdate();
 
     expect(result.current).toMatchObject({
       data: {
